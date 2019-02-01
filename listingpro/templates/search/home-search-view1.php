@@ -210,6 +210,11 @@
 				?>
 							<div class="form-group pull-right <?php echo esc_attr($searchHide); ?>">
 								<div class="lp-search-bar-right">
+								<div class="lp-logo">
+									<a href="https://openmicmaps.com/">
+										<img src="https://openmicmaps.com/wp-content/uploads/2018/06/open22.png" alt="">
+									</a>
+								</div>
 									<input value="<?php echo esc_html__( 'Search', 'listingpro' );?>" class="lp-search-btn" type="submit">
 									<i class="icons8-search lp-search-icon"></i>
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ellipsis.gif" class="searchloading">
